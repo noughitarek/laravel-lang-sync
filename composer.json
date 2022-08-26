@@ -1,0 +1,21 @@
+{
+    "name": "noughitarek/laravel-lang-sync",
+    "description": "A laravel plugin to extracts languages and sync them for Laravel >=5, and 9 using command line",
+    "type": "laravel-plugin",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NOUGHI Tarek",
+            "email": "noughitarek@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Noughitarek\\LaravelLangSync\\": "src/"
+        }
+    }
+}
